@@ -24,7 +24,7 @@ const Hero = () => {
         end: "+=400%",
         scrub: 2.5,
         pin: true,
-        markers: true,
+        // markers: true,
       },
     });
 
