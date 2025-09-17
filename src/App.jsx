@@ -6,6 +6,8 @@ import FirstVideo from "./sections/FirstVideo";
 import { Ellie } from "./sections/Ellie";
 import SecondVideo from "./sections/secondVideo";
 import Abby from "./sections/Abby";
+import { Final } from "./sections/Final";
+import Outro from "./sections/Outro";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -18,6 +20,8 @@ function App() {
       <Ellie />
       <SecondVideo/>
       <Abby />
+      <Final/>
+      <Outro/>
     </main>
   );
 }
